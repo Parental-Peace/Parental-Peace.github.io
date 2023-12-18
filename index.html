@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
+            <!--========== BOX ICONS ==========-->
+            <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+            <!--========== CSS ==========-->
+            <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
     <title>Home - Parental Peace</title>
   </head>
   <body>
-    <!-- <div class="background"></div> -->
     <header class="row background-header container">
       <a class="logo" href="#">
         <img src="assets/logo.png" alt />
@@ -105,6 +108,49 @@
         </div>
       </div>
     </div>
+    <!--========== DECORATION ==========-->
+    <section class="decoration section bd-container" data-aos="fade-up" id="decoration">
+      <h2 class="section-title" data-aos="fade-up" >LEARNING <br> PATH</h2>
+      <div class="decoration__container bd-grid" data-aos="fade-up">
+          <div class="decoration__data" data-aos="fade-up">
+              <img src="assets/img/android.png" alt="" class="decoration__img">
+              <h3 class="decoration__title">Mobile Development</h3>
+              <a href="https://github.com/Dhiandika/Parental_Peace/tree/MD" class="button button-link">Link GitHub</a>
+          </div>
+
+          <div class="decoration__data" data-aos="fade-up">
+              <img src="assets/img/gcloud.png" alt="" class="decoration__img">
+              <h3 class="decoration__title">Cloud Computing</h3>
+              <a href="https://github.com/Dhiandika/Parental_Peace/tree/CC" class="button button-link">Link GitHub</a>
+          </div>
+
+          <div class="decoration__data" data-aos="fade-up" >
+              <img src="assets/img/tensorflow.png" alt="" class="decoration__img">
+              <h3 class="decoration__title">Machine Learning</h3>
+              <a href="https://github.com/Dhiandika/Parental_Peace/tree/ML" class="button button-link">Link GitHub</a>
+          </div>
+      </div>
+  </section>
+<!--========== SEND GIFT ==========-->
+<section class="send section">
+  <div class="send__container bd-container bd-grid">
+      <div class="send__content">
+          <h2 class=" send__title">Send Message Now </h2>
+          <h2 class=" send__title">And Send your Question</h2>
+          <form action="">
+              <div class="send__direction">
+                  <input type="text" placeholder="Message" class="send__input">
+                  <a href="#" class="button">Send</a>
+              </div>
+          </form>
+      </div>
+
+      <div class="send__img">
+          <img src="assets/img/forgotpassword.png" alt="">
+      </div>
+  </div>
+</section>
+
     <a class="anchor" id="stat"></a>
     <div
       class="about-section fw-fh fit-content column justify-align-center container">
@@ -258,49 +304,43 @@
 
     <!-- FOOTER -->
     <footer class="row">
-      <div class="desc column justify-align-baseline">
-        <img class="mb-1" src="assets/logo-white.png" alt />
-        <p class="color-white">
-          Sebuah aplikasi karya sekelompok mahasiswa Program Bangkit 2023 yang
-          diharapkan dapat menjadi solusi dari permasalahan yang beredar di
-          kalangan orangtua baru terkait terjadinya babys blues
-        </p>
-      </div>
-      <div class="wrapper">
-        <p class="footer-title">Quick Links</p>
+      <div class="footer__container bd-container bd-grid">
+        <div class="footer__content">
+            <h3 class="footer__title">
+                <a href="#" class="footer__logo">
+                  <img src="assets/logo-white.png" alt="ini logo">
+                </a>
+            </h3>
+            <p class="footer__description">Sebuah aplikasi karya sekelompok mahasiswa Program Bangkit 2023 yang
+              diharapkan dapat menjadi solusi dari permasalahan yang beredar di
+              kalangan orangtua baru terkait terjadinya babys blues <br> happiness</p>
+        </div>
 
-        <ul>
-          <li>
-            <a href="#" class="footer-link">Advertise with us</a>
-          </li>
+        <div class="footer__content">
+            <h3 class="footer__title">Our Services</h3>
+            <ul>
+                <li><a href="#" class="footer__link">Pricing </a></li>
+                <li><a href="#" class="footer__link">Discounts</a></li>
+                <li><a href="#" class="footer__link">Shipping mode</a></li>
+            </ul>
+        </div>
 
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
+        <div class="footer__content">
+            <h3 class="footer__title">Our Company</h3>
+            <ul>
+                <li><a href="#" class="footer__link">Blog</a></li>
+                <li><a href="#" class="footer__link">About us</a></li>
+                <li><a href="#" class="footer__link">Our mision</a></li>
+            </ul>
+        </div>
 
-          <li>
-            <a href="#" class="footer-link">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="wrapper">
-        <p class="footer-title">Legal Stuff</p>
-
-        <ul>
-          <li>
-            <a href="#" class="footer-link">Privacy Notice</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Cookie Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms Of Use</a>
-          </li>
-        </ul>
-      </div>
+        <div class="footer__content">
+            <h3 class="footer__title">Social</h3>
+            <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+            <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+            <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+    </div>
     </footer>
     <p class="copyright">
       &copy; Copyright 2023 <a href="#">Parental Peace</a>
